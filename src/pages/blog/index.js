@@ -22,7 +22,7 @@ export default class BlogIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Latest Stories
+            The Latest in the world of Science Technology Engineering and Mathematics.
           </h1>
         </div>
         <section className="section">
