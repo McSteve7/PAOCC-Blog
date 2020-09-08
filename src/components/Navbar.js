@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
+import PaoccLogo from '../img/PAOCC.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -40,7 +41,9 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            
+            <Link to="https://hardcore-carson-873ac5.netlify.app/" className="navbar-item" title="Logo">
+              <img src={PaoccLogo} alt="PAOCC Logo" style={{ width: '88px' }} />
+            </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
